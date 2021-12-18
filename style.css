@@ -54,7 +54,9 @@
     }
 
     .search button{
-        font-size: 15px;
+        font-size: 16px;
+        padding: 1px;
+        left: 2px;
     }
     .card-header{
         height: 50%;

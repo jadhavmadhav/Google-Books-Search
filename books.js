@@ -64,7 +64,7 @@ const Search =()=>{
        
         try {
             
-            const req = await fetch(`https://www.googleapis.com/books/v1/volumes?=${userdata}:keyes&AIzaSyAx77nEfTm5MEbI9SfOtxU_P7TxgHThiFY`)
+            const req = await fetch(`https://www.googleapis.com/books/v1/volumes?q=${userdata}:keyes&AIzaSyAx77nEfTm5MEbI9SfOtxU_P7TxgHThiFY`)
              
        if (!req.ok) {
            throw Error.req(status)
