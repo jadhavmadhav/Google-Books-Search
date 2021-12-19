@@ -34,7 +34,7 @@
     box-shadow: 1px 1px 1px ;
 }
 .card-img-top{
-    background-color: black;
+/*     background-color: black; */
     height:200px;
      display: flex;
      flex-direction: column;
